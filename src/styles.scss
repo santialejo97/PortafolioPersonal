@@ -1,5 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
+$fondo: #222327;
+$principal: #29fd53;
+$segundario: #ffffff;
+
 html {
-  background-color: #29fd53;
+  box-sizing: border-box;
+  background-color: $fondo;
+  width: 100%;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: $segundario;
+  margin: 0;
+}
+
+.principal {
+  height: 500px;
 }
